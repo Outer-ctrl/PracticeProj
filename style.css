@@ -3,7 +3,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        gap: 45px;
+        gap: 30px;
         height: 90px;
         justify-content: center;
     }
@@ -21,21 +21,21 @@
         position: relative;
         cursor: pointer;
         color: #44312e;
-        font-size: 32px;
+        font-size: 28px;
         font-family: Garamond, serif;
-        padding: 0.75, 1rem;
+        padding: 0.5, 1rem;
         transition: color 0.25s; 
     }
 
     a::after {
         position: absolute;
         content: "";
-        iset: 0;
+        inset: 0;
         background: #aa7b4f;
         scale: 1 0;
         z-index: -1;
         transition: 0.45s;
-        border-radius: 12px;
+        border-radius: 10px;
         }   
 
     a:hover{
